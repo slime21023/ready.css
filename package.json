@@ -1,0 +1,22 @@
+{
+  "name": "readycss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ready.css",
+  "scripts": {
+    "demo": "npx parcel demo/index.html",
+    "dev:demo": "npx parcel watch demo/index.html",
+    "build": "node build.js"
+  },
+  "targets": {
+    "main": false
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "lightningcss-cli": "^1.16.1",
+    "open-props": "^1.4.25",
+    "parcel": "^2.8.0"
+  }
+}
